@@ -10,6 +10,6 @@ Tom is seeking a Python script to accurately record votes for the Colorado Board
 * the largest county turnout
 
 ## Election Audit Results ##
-(https://github.com/koenesjasmine/Python/blob/main/Resources/Capture.PNG?raw=true)
+![](https://github.com/koenesjasmine/Python/blob/main/Resources/Capture.PNG?raw=true)
 ## Election Audit Summary ##
 As we can assess above, this script can be reused and be adaptable for any election analysis that contains the county name, and candidate. With slight modifications this code could also include summaries with the additional categories such as zip code, state, or possibly voting id to prevent voter fraud. If we were to include an additional columm that specifies the election race year this script can be adjusted to count and report for multiple elections within one result to see trends within each category. 
