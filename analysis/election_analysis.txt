@@ -12,7 +12,7 @@ Winning Vote Count: 272,892
 Winning Percentage: 73.8%
 -------------------------
 County Breakdown:
--------------------
+-------------------------
 Jefferson: 10.5% (38,855)
 Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)

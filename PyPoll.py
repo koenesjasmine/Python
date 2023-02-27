@@ -89,7 +89,7 @@ with open(file_to_save, "w") as txt_file:
     
 ######county reporting 
     # report out county summary info, how many votes and what percentage of each county.
-    county_header = f"County Breakdown:\n-------------------\n"
+    county_header = f"County Breakdown:\n-------------------------\n"
     print(county_header)
     txt_file.write (county_header)
     for county_name in county_votes:   
