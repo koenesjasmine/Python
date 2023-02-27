@@ -17,7 +17,7 @@ Jefferson: 10.5% (38,855)
 Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
 -------------------------
-Major County: Denver
-Major County Vote Count: 306,055
-Major Percentage: 82.8%
+Largest County: Denver
+Largest County Vote Count: 306,055
+Largest Percentage: 82.8%
 -------------------------

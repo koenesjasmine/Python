@@ -16,7 +16,7 @@ candidate_votes = {}
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
-major_county=""
+largest_county=""
 county_max_votes = 0
 county_max_pct = 0
 # Open the election results and read the file.
@@ -99,19 +99,19 @@ with open(file_to_save, "w") as txt_file:
         print(county_summary)
         txt_file.write(county_summary)
         #print_highest county turnout
-        # Determine major vote count, majorg percentage, and major county.
+        # Determine largest vote count, largestg percentage, and largest county.
         if (votes > county_max_votes) and (vote_percentage > county_max_pct):
             county_max_votes = votes
-            major_county = county_name
+            largest_county = county_name
             county_max_pct = vote_percentage
 
-    major_county_summary = (
+    largest_county_summary = (
         f"-------------------------\n"
-        f"Major County: {major_county}\n"
-        f"Major County Vote Count: {county_max_votes:,}\n"
-        f"Major Percentage: {county_max_pct:.1f}%\n"
+        f"Largest County: {largest_county}\n"
+        f"Largest County Vote Count: {county_max_votes:,}\n"
+        f"Largest Percentage: {county_max_pct:.1f}%\n"
         f"-------------------------\n")
     # Save the winning candidate's results to the text file.
-    print(major_county_summary )
-    txt_file.write(major_county_summary)
+    print(largest_county_summary )
+    txt_file.write(largest_county_summary)
     
